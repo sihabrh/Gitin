@@ -1,0 +1,441 @@
+/* tab screen */
+
+@media only screen and (min-width:400px) and (max-width: 770px){
+
+    #section_1{
+    padding: 0px;
+  }
+
+      .fri_sit {
+      width: 100%;
+  }
+      .fri_sit h1{
+      font-size:45px;
+  }
+  .fri_sit p{
+    padding-left: 0;
+  }
+
+  .paragraph p{
+    padding-left: 0;
+  }
+
+  .nwe_prand p{
+    padding-left: 0;
+  }
+    .underS_child{
+      grid-template-columns:100%;
+      }
+
+      .paragraph p{
+  font-size: 20px;
+  
+  }
+      .paragraph {
+  width: 100%;
+  margin-top: 30px;
+  
+  }
+.nwe_prand p{
+  margin-left: 0;
+}
+.ses_child p{
+  padding-left: 0;
+}
+  .product_img{
+    grid-template-columns: 100%;
+  }
+
+    .fri_F_img img{
+    height: 300px;
+
+  }
+
+  .new_product{
+    grid-template-columns:1fr;
+  }
+
+  .more_product{
+    grid-template-columns: 100%;
+
+  }
+
+  .more_writ{
+    padding-right: 30px;
+  }
+
+  .more_prod{
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin: 20px 30px;
+  }
+  #section_4{
+  padding: 0px;
+  }
+  .up_right{
+    grid-template-columns: 1fr 1fr ;
+      
+  }
+
+  .main_ite{
+    grid-template-columns: 100%;
+  }
+
+
+  .Discount{
+    grid-template-columns: 1fr;
+
+  }
+
+  .child_dis img{
+    width: 200px;
+    right: 10px;
+  }
+
+
+  .our_blog{
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+
+  .parend_aroun{
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .child_aroun:nth-child(2){
+    grid-column: 1/3;
+    order: -1;
+
+  }
+
+  #main_parfooter{
+    background-color: rgb(1, 1, 18);
+    padding: 40px;
+    padding-top: 170px;
+    margin-top: -110px;
+
+  }
+
+  .main_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 5px;
+  }
+
+  .icon_footer span{
+  display: block;
+
+  }
+
+  .blog_title h1{
+    padding-left: 20px;
+  }
+
+
+  .child_blog h2, p{
+    padding-left: 20px;
+  }
+  .suport{
+ margin-left: 5px;
+}
+
+.icon_footer{
+  margin-left: 5px;
+  }
+
+
+}
+
+
+
+
+/* mobile screen */
+
+
+    @media only screen and (max-width:769px){
+
+
+        #section_1{
+  padding: 0px;
+}
+          .fri_sit {
+    width: 100%;
+}
+    .fri_sit h1{
+    font-size:45px;
+}
+
+.under_child{
+  padding-left: 20px;
+}
+      .underS_child{
+  grid-template-columns:100%;
+  
+  }
+
+    .paragraph p{
+ font-size: 20px;
+ padding-left: 0;
+}
+.nwe_prand p{
+  margin-left: 0;
+}
+
+.ses_child p{
+  padding-left: 0;
+}
+ .fri_sit p{
+    padding-left: 0;
+  }
+
+
+  .nwe_prand p{
+    padding-left: 0;
+  }
+    .paragraph {
+ width: 100%;
+ margin-top: 30px;
+ 
+}
+
+.product_img{
+  grid-template-columns: 100%;
+}
+
+  .fri_F_img img{
+  height: 300px;
+
+}
+
+
+.new_product{
+  grid-template-columns:100%;
+}
+
+.more_product{
+  grid-template-columns: 100%;
+
+}
+
+.more_writ{
+  padding-right: 30px;
+}
+
+.more_prod{
+  padding: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin: 20px 30px;
+
+
+}
+
+.up_right{
+  grid-template-columns: 1fr 1fr ;
+     
+}
+
+#section_4{
+  padding: 0px;
+  
+}
+
+.main_ite{
+  grid-template-columns: 100%;
+}
+
+.Discount{
+  grid-template-columns: 1fr;
+
+
+
+}
+.child_right h3{
+  padding: 20px;
+
+}
+ .child_right p{
+  padding: 20px;
+
+}
+ .child_right i{
+  padding: 20px;
+
+}
+.head_4 h1{
+  padding: 20px;
+}
+
+
+.child_dis{
+  padding: 30px;
+}
+
+.child_disco h1{
+  padding: 20px;
+}
+.child_disco p{
+  padding: 20px;
+}
+  
+.child_dis img{
+  width: 200px;
+  right: 10px;
+}
+  
+.our_blog{
+  grid-template-columns: 100%;
+  justify-content: center;
+
+}
+
+.parend_aroun{
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.child_aroun:nth-child(2){
+  grid-column: 1/3;
+  order: -1;
+}
+
+#main_parfooter{
+  background-color: rgb(1, 1, 18);
+  padding: 40px;
+  padding-top: 170px;
+  margin-top: -110px;
+
+}
+
+.main_footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 5px;
+}
+
+.icon_footer span{
+ display: block;
+
+}
+.blog_title h1{
+  padding-left: 20px;
+}
+
+.suport{
+ margin-left: 5px;
+}
+
+.icon_footer{
+  margin-left: 5px;
+  }
+
+  .child_blog h2, p{
+    padding-left: 20px;
+  }
+
+
+
+
+}
+
+
+
+
+
+/* tab labtop screen */
+
+    @media only screen and  (min-width:768px) and (max-width:1050px){
+  #main_section{
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+  .fri_sit {
+    width: 100%;
+  }
+      .fri_sit h1{
+    font-size:55px;
+}
+
+       .underS_child{
+       grid-template-columns: 50% 50% ;
+    
+        
+    }
+
+    .paragraph p{
+ font-size: 20px;
+ 
+}
+    .paragraph {
+ width: 100%;
+ margin-top: 30px;
+ 
+}
+
+.product_img{
+  grid-template-columns: 100%;
+}
+
+  .fri_F_img img{
+  height: 300px;
+
+}
+
+.new_product{
+  grid-template-columns:1fr 1fr;
+}
+
+.more_product{
+  grid-template-columns: 100%;
+
+}
+#section_4{
+ 
+  padding: 20px;
+}
+
+.up_right{
+  grid-template-columns: 1fr 1fr ;
+     
+}
+.child_right{
+  padding: 20px;
+
+}
+
+.main_ite{
+  grid-template-columns: 100%;
+}
+
+.Discount{
+  grid-template-columns: 1fr;
+}
+
+.child_dis img{
+  width: 300px;
+  right: 30px;
+}
+
+.our_blog{
+  grid-template-columns:1fr 1fr;
+
+}
+
+.parend_aroun{
+  grid-template-columns:1fr 1fr;
+
+}
+
+.child_aroun:nth-child(2){
+  grid-column: 1/3;
+  order: -1;
+
+}
+
+}
